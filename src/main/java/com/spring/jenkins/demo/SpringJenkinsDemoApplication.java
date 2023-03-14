@@ -12,7 +12,7 @@ public class SpringJenkinsDemoApplication {
 	public static Logger logger = LoggerFactory.getLogger(SpringJenkinsDemoApplication.class);
 
 	@PostConstruct
-	public void init() {
+	public  init() {
 		logger.info("init methd execution...");
 	}
 
